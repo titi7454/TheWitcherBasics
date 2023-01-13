@@ -1,13 +1,23 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+@font-face {
+  font-family: "Witcher Regular";
+  src: url("../public/Thewitcher.woff2") format("woff2");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer base {
+  html {
+    font-family: Witcher Regular, system-ui, sans-serif;
+    scroll-behavior: smooth;
+    scroll-padding: 3.5rem;
+  }
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #36404c;
+}
+
+
