@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/TheWitcherBasics/static/css/main.b656fb07.css",
+    "main.js": "/TheWitcherBasics/static/js/main.dc264465.js",
+    "static/media/higher.png": "/TheWitcherBasics/static/media/higher.2b33430cde5df8969176.png",
+    "static/media/lower.png": "/TheWitcherBasics/static/media/lower.0704483340033b263a3c.png",
+    "static/media/banshii.png": "/TheWitcherBasics/static/media/banshii.ce8a18848a97f9e89467.png",
+    "static/media/witcher.png": "/TheWitcherBasics/static/media/witcher.8e526e44c871c9b9b86a.png",
+    "static/media/leshy.png": "/TheWitcherBasics/static/media/leshy.c66e5e19d766316e0f8a.png",
+    "static/media/striga.png": "/TheWitcherBasics/static/media/striga.37a1784d9adec55af9a9.png",
+    "static/media/ghoul.png": "/TheWitcherBasics/static/media/ghoul.8ff12be2d1bcdb131168.png",
+    "static/media/bruxa.png": "/TheWitcherBasics/static/media/bruxa.fdca37da11c12b54c9eb.png",
+    "static/media/banshiismall.png": "/TheWitcherBasics/static/media/banshiismall.235949edddfc2b62b072.png",
+    "static/media/leshysmall.png": "/TheWitcherBasics/static/media/leshysmall.865d7ca6bcb341561775.png",
+    "static/media/strigasmall.png": "/TheWitcherBasics/static/media/strigasmall.6c586d2e04298530c114.png",
+    "static/media/bruxasmall.png": "/TheWitcherBasics/static/media/bruxasmall.3b815e60f5b25fab8886.png",
+    "static/media/ghoulsmall.png": "/TheWitcherBasics/static/media/ghoulsmall.a43e82ca58ba4a3280a7.png",
+    "static/media/bear.png": "/TheWitcherBasics/static/media/bear.fc4371993050d027e67c.png",
+    "static/media/wolf.png": "/TheWitcherBasics/static/media/wolf.97f2c1828810df13f712.png",
+    "static/media/manticore.png": "/TheWitcherBasics/static/media/manticore.86a87a4f2dc5e8724467.png",
+    "static/media/griffin.png": "/TheWitcherBasics/static/media/griffin.755183b05d7d5fdcd45b.png",
+    "static/media/cat.png": "/TheWitcherBasics/static/media/cat.813417fcc834ee414657.png",
+    "static/media/viper.png": "/TheWitcherBasics/static/media/viper.4a54a83cbfcb85226c70.png",
+    "static/media/Thewitcher.woff2": "/TheWitcherBasics/static/media/Thewitcher.4bbfab0f1bd9f0e1bfd4.woff2",
+    "static/media/slick.svg": "/TheWitcherBasics/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/TheWitcherBasics/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/TheWitcherBasics/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/TheWitcherBasics/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/TheWitcherBasics/index.html",
+    "main.b656fb07.css.map": "/TheWitcherBasics/static/css/main.b656fb07.css.map",
+    "main.dc264465.js.map": "/TheWitcherBasics/static/js/main.dc264465.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b656fb07.css",
+    "static/js/main.dc264465.js"
+  ]
+}
