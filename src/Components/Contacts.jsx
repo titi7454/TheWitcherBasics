@@ -7,18 +7,40 @@ import Email from "../Assets/email.png";
 
 function Contacts() {
   return (
-    <div
-      className="pt-10 px-14 md:px-20 lg:px-0 mb-4 max-w-screen text-[#ffffff]"
-    >
+    <div className="pt-10 px-14 md:px-20 lg:px-0 mb-4 max-w-screen text-[#ffffff]">
       <div className="lg:flex">
         <div className="lg:w-1/2 pt-0 my-5 lg:px-20 lg:border-r-2 lg:border-petrol-blue-border ">
           <div className=" lg:px-24 text-md text-center block items-center justify-center lg:text-2xl 2xl:text-4xl ">
-            CLICK ON YOUR PLATFORM TO DOWNLOAD THE GAME
+            CLICK ON YOUR PLATFORM TO BUY THE GAME
             <div className="flex gap-3 pt-2 flex-col items-center justify-center">
-              <img src={Xbox} alt="Xbox" />
-              <img src={Ps} alt="Ps" />
-              <img src={Steam} alt="Steam" />
-              <img src={Epic} alt="Epic" />
+              <a
+                target={"_blank"}
+                rel={"noopener noreferrer"}
+                href="https://www.xbox.com/en-us/games/store/the-witcher-3-wild-hunt/br765873cqjd"
+              >
+                <img src={Xbox} alt="Xbox" />
+              </a>
+              <a
+                target={"_blank"}
+                rel={"noopener noreferrer"}
+                href="https://store.playstation.com/en-us/product/UP4497-PPSA10407_00-00000000000000N2"
+              >
+                <img src={Ps} alt="Ps" />
+              </a>
+              <a
+                target={"_blank"}
+                rel={"noopener noreferrer"}
+                href="https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt"
+              >
+                <img src={Steam} alt="Steam" />
+              </a>
+              <a
+                target={"_blank"}
+                rel={"noopener noreferrer"}
+                href="https://store.epicgames.com/en-US/p/the-witcher-3-wild-hunt"
+              >
+                <img src={Epic} alt="Epic" />
+              </a>
             </div>
           </div>
         </div>

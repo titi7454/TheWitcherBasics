@@ -8,6 +8,14 @@ import Bruxa from "../Assets/bruxa.png";
 import Bruxa2 from "../Assets/bruxasmall.png";
 import Ghoul from "../Assets/ghoul.png";
 import Ghoul2 from "../Assets/ghoulsmall.png";
+import Alp from "../Assets/alp.png";
+import Alp2 from "../Assets/alpsmall.png";
+import Barghest from "../Assets/barghest.png";
+import Barghest2 from "../Assets/barghestsmall.png";
+import Dagon from "../Assets/dagon.png";
+import Dagon2 from "../Assets/dagonsmall.png";
+import Koshchey from "../Assets/koshchey.png";
+import Koshchey2 from "../Assets/koshcheysmall.png";
 
 export const mutants = [
     {
@@ -29,15 +37,15 @@ export const mutants = [
       name: "beann'shie",
       src: Banshii2,
       img: Banshii,
-      occurence: "",
-      immunity: "",
-      susceptibility: "",
-      tactics: "",
-      alchemy: "None",
+      occurence: "Toussaint",
+      immunity: "None",
+      susceptibility: "Specter oil",
+      tactics: "Scream which will stun and disorient",
+      alchemy: "Lunar shards",
     },
     {
       id: 3,
-      name: "leshy",
+      name: "leshen",
       src: Leshy2,
       img: Leshy,
       occurence: "Velen, SkelligeKaer, Morhen",
@@ -45,7 +53,7 @@ export const mutants = [
       susceptibility: "Dimeritium bomb, Relict oil, Igni",
       tactics:
         "Controlling surrounding animals and plants; temporarily disappearing.",
-      alchemy: "None",
+      alchemy: "Leshen mutagen",
     },
     {
       id: 4,
@@ -75,46 +83,46 @@ export const mutants = [
     },
     {
       id: 6,
-      name: "Striga",
-      src: Striga2,
-      img: Striga,
-      occurence: "",
-      immunity: "",
-      susceptibility: "",
-      tactics: "",
-      alchemy: "None",
+      name: "alp",
+      src: Alp2,
+      img: Alp,
+      occurence: "Elven ruins",
+      immunity: "They are fearless and resistant to stun attempts.",
+      susceptibility: "Sensitive to silver and Vampire Oil",
+      tactics: "Alps attack by surprise, try to daze their victims and drink their blood",
+      alchemy: "Alp fangs",
     },
     {
       id: 7,
-      name: "Striga",
-      src: Striga2,
-      img: Striga,
-      occurence: "",
-      immunity: "",
-      susceptibility: "",
-      tactics: "",
-      alchemy: "None",
+      name: "barghest",
+      src: Barghest2,
+      img: Barghest,
+      occurence: "Barghests are ghosts which come from the underworld only when summoned.",
+      immunity: "Barghests are fearless and cannot be poisoned; coming from the underworld they acquire bodies, so they can be stunned and experience pain, although they are somewhat resistant to these effects.",
+      susceptibility: "Barghests are sensitive to silver and very susceptible to knockdown attempts; the Fast Style is most efficient against barghests and experienced witchers use the Group Style while fighting multiple barghests.",
+      tactics: "They try to surround their opponent and work as a group - where one barghest appears, more will follow.",
+      alchemy: "Ectoplasm",
     },
     {
       id: 8,
-      name: "Striga",
-      src: Striga2,
-      img: Striga,
-      occurence: "",
-      immunity: "",
-      susceptibility: "",
-      tactics: "",
-      alchemy: "None",
+      name: "dagon",
+      src: Dagon2,
+      img: Dagon,
+      occurence: "Dagon is a mythical creature; according to the legend, it rests at the bottom of a lake near the village of Murky Waters.",
+      immunity: "Dagon is a deity, so he can not be killed.",
+      susceptibility: "The creature receives energy from its believers' faith, which might be his only weakness.",
+      tactics: "When Dagon ventures out on land, destruction follows him.",
+      alchemy: "Dagon secretions",
     },
     {
       id: 9,
-      name: "Striga",
-      src: Striga2,
-      img: Striga,
-      occurence: "",
-      immunity: "",
-      susceptibility: "",
-      tactics: "",
-      alchemy: "None",
+      name: "koshchey",
+      src: Koshchey2,
+      img: Koshchey,
+      occurence: "A mythical creature born of magic; only a mighty mage who knows Alzur's work can summon a koshchey.",
+      immunity: "Resistant to most effects",
+      susceptibility: "Susceptible to silver",
+      tactics: "Critical effect is blinding",
+      alchemy: "Koshchey heart",
     },
   ];
